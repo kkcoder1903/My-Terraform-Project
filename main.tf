@@ -1,11 +1,11 @@
-module "EC2-instance" {
-  source      = "./modules/EC2-instance"
+module "ec2" {
+  source      = "./modules/ec2"
   ami_id      = var.ami_id
   instance_type = var.instance_type
 }
 
-module "VPC" {
-  source     = "./modules/VPC"
+module "vpc" {
+  source     = "./modules/vpc"
   vpc_name   = var.vpc_name
   cidr_block = var.cidr_block
   enable_dns_support = var.enable_dns_support
