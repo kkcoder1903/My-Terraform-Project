@@ -30,7 +30,7 @@ Our architecture consists of the following components:
 - **Application Tier**: EC2 instances with the application logic.
 - **Data Tier**: RDS for the database.
 
-![Architecture Diagram](architecture_diagram.png)
+
 
 ## Prerequisites
 Before you start, ensure you have:
